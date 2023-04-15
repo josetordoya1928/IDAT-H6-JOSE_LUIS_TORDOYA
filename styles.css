@@ -185,5 +185,147 @@ body{
   height: 422px;
   width: 341px;
   border-radius: 24px;
-  background-color: blue;
+  background-color: white;
+  padding: 46px 34px;
+}
+
+.section2__box:hover{
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.section2__minibox1{
+  height: 67px;
+  width: 67px;
+  border-radius: 16px;
+  background-color: #2D9CDB;
+  ;
+}
+
+.section2__minibox2{
+  height: 67px;
+  width: 67px;
+  border-radius: 16px;
+  background-color: #27AE60;
+}
+
+.section2__minibox3{
+  height: 67px;
+  width: 67px;
+  border-radius: 16px;
+  background-color: #EB5757;
+}
+
+.section2__title2{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 35px;
+}
+
+.section2__text{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 96px;
+  width: 273px;
+}
+
+.section2__button{
+  height: 42px;
+  width: 116px;
+  border-radius: 12px;
+  border-style: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  cursor: pointer;
+}
+
+.section2__button:active{
+  background-color: #2D9CDB;
+  color: white;
+}
+
+.section3{
+  margin-top: 194px;
+  margin-left: 165px;
+}
+
+.section3__title{
+  height: 108px;
+  width: 448px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section3__boxes{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.section3__column1{
+  margin-top: 188px;
+}
+
+.section3__img{
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.section3__text{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin: 0;
+  padding: 0;
+}
+
+.section3__text2{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.section3__text3{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #2D9CDB;
+  margin-top: 133px;
+}
+
+.section3__box1{
+  margin-bottom: 110px;
+}
+
+.section3__box3{
+  margin-bottom: 160px;
 }
